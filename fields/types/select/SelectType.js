@@ -58,7 +58,8 @@ select.prototype.addToSchema = function() {
 		data: this.options.dataPath || this._path.append('Data'),
 		label: this.options.labelPath || this._path.append('Label'),
 		options: this.options.optionsPath || this._path.append('Options'),
-		map: this.options.optionsMapPath || this._path.append('OptionsMap')
+		map: this.options.optionsMapPath || this._path.append('OptionsMap'),
+		multi: this.options.multi || false
 	};
 	schema.path(this.path, _.defaults({
 		type: this._nativeType,
