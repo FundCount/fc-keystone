@@ -63,7 +63,7 @@ select.prototype.addToSchema = function() {
 	};
 	schema.path(this.path, _.defaults({
 		type: this._nativeType,
-		enum: this.values,
+		String: this.values,
 		set: function(val) {
 			return (val === '' || val === null || val === false) ? undefined : val;
 		}
