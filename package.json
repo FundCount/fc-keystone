@@ -1,6 +1,6 @@
 {
   "name": "fc-keystone",
-  "version": "0.3.21-1",
+  "version": "0.3.21-2",
   "description": "Web Application Framework and Admin GUI / Content Management System built on Express.js and Mongoose",
   "main": "index.js",
   "repository": {
@@ -103,7 +103,7 @@
     "moment": "global.moment"
   },
   "author": "Vladimir Grischenko",
-  "homepage": "http://keystonejs.com/",
+  "homepage": "https://github.com/FundCount/fc-keystone/tree/keystone_with_multi_select",
   "license": "MIT",
   "keywords": [
     "express",
