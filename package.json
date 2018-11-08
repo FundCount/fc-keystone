@@ -1,11 +1,11 @@
 {
-  "name": "keystone",
-  "version": "0.3.21",
+  "name": "fc-keystone",
+  "version": "0.3.21-1",
   "description": "Web Application Framework and Admin GUI / Content Management System built on Express.js and Mongoose",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/keystonejs/keystone.git"
+    "url": "https://github.com/FundCount/fc-keystone/tree/keystone_with_multi_select"
   },
   "dependencies": {
     "async": "^1.5.2",
@@ -102,7 +102,7 @@
     "pikaday": "global.Pikaday",
     "moment": "global.moment"
   },
-  "author": "Jed Watson",
+  "author": "Vladimir Grischenko",
   "homepage": "http://keystonejs.com/",
   "license": "MIT",
   "keywords": [
@@ -121,7 +121,7 @@
   "readmeFilename": "README.md",
   "gitHead": "ef3fd612285315ea8e12f68da4c8d6031e2c7fe7",
   "bugs": {
-    "url": "https://github.com/keystonejs/keystone/issues"
+    "url": "https://github.com/FundCount/fc-keystone/tree/keystone_with_multi_select/issues"
   },
   "scripts": {
     "build": "NODE_ENV=production gulp build-packages",
