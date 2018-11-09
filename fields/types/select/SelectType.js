@@ -119,9 +119,9 @@ select.prototype.addFilterToQuery = function(filter, query) {
  */
 select.prototype.validateInput = function(data, required, item) {
 	if (data[this.path]) {
-		return (data[this.path] in this.map) ? true : false;
+		return true;
 	} else {
-		return (!required || (!(this.path in data) && item && item.get(this.path))) ? true : false;
+		return (!required || (!(this.path in data) && item )) ? true : false;
 	}
 };
 
