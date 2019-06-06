@@ -1,6 +1,6 @@
 {
   "name": "@fundcount/fc-keystone",
-  "version": "0.3.21-6",
+  "version": "0.3.21-7",
   "description": "Web Application Framework and Admin GUI / Content Management System built on Express.js and Mongoose",
   "main": "index.js",
   "repository": {
@@ -19,7 +19,7 @@
     "bcrypt-nodejs": "0.0.3",
     "blacklist": "1.1.2",
     "bluebird": "2.10.2",
-    "body-parser": "^.14.1",
+    "body-parser": "1.14.1",
     "browserify-shim": "3.8.10",
     "bytes": "2.1.0",
     "caller-id": "0.1.0",
